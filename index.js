@@ -61,3 +61,18 @@ btn.addEventListener('click',() => {
     }
 
 });
+
+const finalShowPic = document.getElementById('make-purchase');
+finalShowPic.addEventListener('click',() => {
+    const buttonCard = document.getElementById('banner-card').classList;
+    buttonCard.remove('hidden');
+    // console.log(buttonCard);
+
+
+});
+
+const cardid = document.getElementById('card-id');
+cardid.addEventListener('click',() => {
+    const hhh = document.getElementById('banner-card').classList;
+    hhh.add('hidden');
+});
